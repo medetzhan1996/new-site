@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Krona One', sans-serif; /* Имя шрифта */
+    src: url(fonts/Krona_One/KronaOne-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: 'AIV2', sans-serif; /* Имя шрифта */
+    src: url(fonts/AIV2/AIV2.ttf); /* Путь к файлу со шрифтом */
+}
