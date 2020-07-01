@@ -2283,7 +2283,8 @@ ol {
     height: 50px;
     line-height: 40px;
     width: 100%;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 600;
 }
 .color-gold{
 	color: #ECBA77;
