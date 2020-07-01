@@ -141,16 +141,46 @@
 				</div>
 				<div class="col-md-12 spad">
 					<div class="frcontainer">
-						<div class="media">
-						  <div class="media-left">
-						    <a href="#">
-						      <img class="media-object" src="{{ asset('img/favicon.ico') }}" alt="...">
-						    </a>
-						  </div>
-						  <div class="media-body">
-						    <h4 class="media-heading">Media heading</h4>
-						    sdsdsd
-						  </div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="media">
+								  <div class="media-left">
+								    <a href="#" class="icon-slaider">
+								      <i class="fa fa-diamond" aria-hidden="true"></i>
+								    </a>
+								  </div>
+								  <div class="media-body">
+								    <h4 class="media-heading">неподдельный</h4>
+								    Драгоценные металлы
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="media">
+								  <div class="media-left">
+								    <a href="#" class="icon-slaider">
+								      <i class="fa fa-shield" aria-hidden="true"></i>
+								    </a>
+								  </div>
+								  <div class="media-body">
+								    <h4 class="media-heading">100% безопасность</h4>
+								    Оплата
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="media">
+								  <div class="media-left">
+								    <a href="#" class="icon-slaider">
+								      <i class="fa fa-diamond" aria-hidden="true"></i>
+								    </a>
+								  </div>
+								  <div class="media-body">
+								    <h4 class="media-heading">неподдельный</h4>
+								    Драгоценные металлы
+								  </div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
