@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/fontawesome/css/font-awesome.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/css/flaticon.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('css/fonts.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/jquery-ui.min.css') }}"/>
 	<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}"/>
@@ -41,7 +42,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 text-center text-lg-left">
+					<div class="col-lg-12 text-center">
 						<!-- logo -->
 						<a href="./index.html" class="site-logo">
 							<img src="{{ asset('img/logo.png') }}" alt="">

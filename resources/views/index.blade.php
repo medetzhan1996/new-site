@@ -39,7 +39,7 @@
 										<img src="{{ asset('img/soufeel/'.$product->src) }}" alt="">
 									</a>
 									<div class="pi-links">
-										<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
+										<a href="#" class="wishlist-btn"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
 									</div>
 								</div>
 								<div class="pi-text">

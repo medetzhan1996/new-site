@@ -2274,7 +2274,12 @@ ol {
     width: 100%;
     font-size: 36px;
 }
-
+.frcontainer{
+	padding: 30px 0;
+    border-top: 1px solid #eaecef;
+    border-bottom: 1px solid #eaecef;
+    position: relative;
+}
 /* ----------------
   Responsive
 ---------------------*/

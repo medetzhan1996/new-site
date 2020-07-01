@@ -140,6 +140,21 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-md-12 spad">
+					<div class="frcontainer">
+						<div class="media">
+						  <div class="media-left">
+						    <a href="#">
+						      <img class="media-object" src="{{ asset('img/favicon.ico') }}" alt="...">
+						    </a>
+						  </div>
+						  <div class="media-body">
+						    <h4 class="media-heading">Media heading</h4>
+						    sdsdsd
+						  </div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
