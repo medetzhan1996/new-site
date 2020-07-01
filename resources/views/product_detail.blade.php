@@ -3,6 +3,12 @@
 	<!-- product section -->
 	<section class="product-section">
 		<div class="container">
+			@if($send_order)
+				<div class="alert alert-success alert-dismissible">
+				  	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  	<strong>Ваш заказ успешно отправлен!</strong> Ждите звонок менеджера.
+				</div>
+			@endif
 			<div class="row">
 				<div class="col-lg-6">
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -60,7 +66,7 @@
 						<div class="form-group">
 						    <label for="validationTooltipUsername">Пред. осмотр: </label>
 						    <span id="preview-content" class="{{$product->font_family}}"></span>
-						    <input type="text" id="preview-text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
+						    <input type="text" id="preview-text" class="form-control form-contact"  placeholder="Введите имя или текст ..." required>
 						  </div>
 					     <div class="form-group">
 						    <label for="exampleFormControlSelect1">Выберите материал:</label>
@@ -74,30 +80,31 @@
 					     <!-- Modal -->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						  <div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Заказать </h5>
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-						      </div>
-						      <div class="modal-body">
-						        <form>
-								  <div class="form-group">
-								    <label for="exampleInputEmail1">Введите имя</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="имя">
-								  </div>
-								  <div class="form-group">
-								    <label for="exampleInputPassword1">Введите номер телефона</label>
-								    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
-								  </div>
-								</form>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
-						        <button type="button" class="btn btn-sm btn-primary">Отправить</button>
-						      </div>
-						    </div>
+						  	<form method="GET" action="">
+							    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalLabel">Заказать </h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+										  <div class="form-group">
+										    <label for="exampleInputEmail1">Введите имя</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="имя">
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputPassword1">Введите номер телефона</label>
+										    <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
+										  </div>
+										</form>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
+								        <input type="submit" name="send-order" class="btn btn-sm btn-primary" value="Отправить">
+								      </div>
+							    </div>
+						    </form>
 						  </div>
 						</div>
 						<!-- Modal -->
@@ -154,8 +161,8 @@
 								    </a>
 								  </div>
 								  <div class="media-body">
-								    <h4 class="media-heading">неподдельный</h4>
-								    Драгоценные металлы
+								    <h4 class="media-heading">Неподдельный</h4>
+								    Качественные материалы
 								  </div>
 								</div>
 							</div>
@@ -180,7 +187,7 @@
 								    </a>
 								  </div>
 								  <div class="media-body">
-								    <h4 class="media-heading">БЕСПЛАТНО KZ ПЕРЕВОЗКА</h4>
+								    <h4 class="media-heading">Бесплатная доставка по Казахстану</h4>
 								    ...
 								  </div>
 								</div>

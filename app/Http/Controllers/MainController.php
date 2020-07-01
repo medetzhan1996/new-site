@@ -22,9 +22,10 @@ class MainController extends Controller
         return view('index', ['list_products_top'=>$list_products_top, 'section_title'=>$section_title,
         	                  'category_products'=>$category_products]);
     }
-    public function product_detail($id){
+    public function product_detail(Request $request, $id){
+        $send_order = $request->get('send-order') ?? '';
     	$product = DB::table('list_products')->find($id);
-    	return view('product_detail', ['product'=>$product]);
+    	return view('product_detail', ['product'=>$product, 'send_order'=>$send_order]);
     }
     public function product_photo_detail($id){
         $product = DB::table('list_products')->find($id);
