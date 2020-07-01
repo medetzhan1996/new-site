@@ -54,21 +54,20 @@
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
 						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
 					</div>
 					<div class="input-text-modal">
 						<div class="form-group">
-						    <label for="validationTooltipUsername">Пред. просмотр: </label>
-						    <span id="preview-content" style="font-family: {{$product->font_family}}"></span>
+						    <label for="validationTooltipUsername">Пред. осмотр: </label>
+						    <span id="preview-content" class="{{$product->font_family}}"></span>
 						    <input type="text" id="preview-text" class="form-control form-contact"  placeholder="Введите имя или текст здесь ..." required>
 						  </div>
 					     <div class="form-group">
 						    <label for="exampleFormControlSelect1">Выберите материал:</label>
 						    <select class="form-control form-contact">
-						      <option>1</option>
-						      <option>2</option>
-						      <option>3</option>
-						      <option>4</option>
-						      <option>5</option>
+						      <option value="Серебро">Серебро</option>
+						      <option value="Подзолото">Подзолото</option>
+						      <option value="Золото">Золото</option>
 						    </select>
 						  </div>
 						  <a href="" class="site-btn" data-toggle="modal" data-target="#exampleModal">Заказать</a>
