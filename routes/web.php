@@ -13,3 +13,4 @@
 
 Route::get('/{category_id?}', 'MainController@index')->name('main_index');
 Route::get('/product/{id}', 'MainController@product_detail')->name('main_product_detail');
+Route::get('/product-phote/{id}', 'MainController@product_photo_detail')->name('main_phote_product_detail');

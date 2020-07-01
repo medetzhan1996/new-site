@@ -35,7 +35,7 @@
 									@if($product->old_price)
 										<div class="tag-sale">Акция</div>
 									@endif
-									<a href="{{ $product->kind==1 ? route('main_product_detail', ['id' => $product->id]) : '' }}">
+									<a href="{{ $product->kind==1 ? route('main_product_detail', ['id' => $product->id]) : route('main_phote_product_detail', ['id' => $product->id]) }}">
 										<img src="{{ asset('img/soufeel/'.$product->src) }}" alt="">
 									</a>
 									<div class="pi-links">
