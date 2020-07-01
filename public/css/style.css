@@ -1046,26 +1046,29 @@ ol {
 }
 
  #img-content{
-        width: 200px;
-        margin: 0 auto;
-        height: 300px;
-        border: 1px solid #f7f8f9;
-        border-radius: 10px;
-        background-image: url(../img/canvas/PHONE11PRO.png);
-        background-repeat: no-repeat;
+ 	    width: 220px;
+	    margin: 0 auto;
+	    height: 330px;
+	    border: 1px solid #f7f8f9;
+	    border-radius: 10px;
+	    background-image: url(../img/phonecases/PHONE11PRO.png);
+	    background-repeat: no-repeat;
+	    background-size: cover;
       }
       #img{
         margin: 5px;
-        width: 190px;
-        height: 290px;
-        overflow: hidden;
-        border-radius: 10%; 
+	    width: 208px;
+	    height: 318px;
+	    overflow: hidden;
+	    border-radius: 10%;
       }
-      canvas{
-        z-index: -1;
-      }
+      canvas {
+	    z-index: -1;
+	    width: 204px!important;
+	    height: 321px!important;
+		}
 .background{
-	background: #f7f8f9;
+	/* background: #f7f8f9; */
     padding: 25px;
 	margin-bottom: 25px;
 }
