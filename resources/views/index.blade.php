@@ -9,9 +9,6 @@
 				<div class="filter-widget">
 					<h2 class="fw-title">Категории</h2>
 					<ul class="category-menu">
-						<li>
-							<a href="{{route('main_index')}}">Все категории</a>
-						</li>
 						@foreach($category_products as $category)
 						<li>
 							<a href="{{route('main_index', ['category_id' => $category->id])}}">{{$category->title}}</a>
