@@ -2526,6 +2526,9 @@ video{
 	.media{
 		padding-bottom: 20px;
 	}
+	.related-product-section{
+		padding-bottom: 10px;
+	}
 }
 
 /* Medium Mobile :480px. */
