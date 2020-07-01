@@ -2269,7 +2269,7 @@ ol {
 }
 
 .font-aiv2{
-	font-family: "Porcelain";
+	font-family: "AIV2";
 	color: #eac855;
 	text-align: left;
     height: 40px;
@@ -2277,6 +2277,25 @@ ol {
     width: 100%;
     font-size: 36px;
 }
+.font-anastasiaScriptC{
+	font-family: "AnastasiaScriptC";
+	color: #d4af8b;
+	text-align: left;
+    height: 50px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 36px;
+}
+.font-SharonAP{
+	font-family: "SharonAP";
+	color: #EFC596;
+	text-align: left;
+    height: 50px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 36px;
+}
+
 .frcontainer{
 	padding: 30px 0;
     border-top: 1px solid #eaecef;
