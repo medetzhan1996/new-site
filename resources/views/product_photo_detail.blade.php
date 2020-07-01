@@ -1,7 +1,210 @@
 @extends('layout')
 @section('content')
+<!-- product section -->
+	<section class="product-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="background">	
+						<div id="img-content">
+							<div id="img">
+
+							</div>
+						</div>
+						<div class="background-btn">
+							<span id="large-img" class="btn btn-sm btn-info">+</span>
+							<span id="reduce-img" class="btn btn-sm btn-info">-</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 product-details">
+					<h2 class="p-title">Защитный Чехол Для Телефона</h2>
+					<h3 class="p-price">10000 тг</h3>
+					<h4 class="p-stock">Available: <span>In Stock</span></h4>
+					<div class="p-rating">
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o fa-fade"></i>
+					</div>
+					<div class="input-text-modal">
+					     <div class="form-group">
+						    <label for="exampleFormControlSelect1">Версия:</label>
+						    <select class="form-control form-contact">
+						      <option>1</option>
+						      <option>2</option>
+						      <option>3</option>
+						      <option>4</option>
+						      <option>5</option>
+						    </select>
+						  </div>
+					     <!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Заказать </h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">×</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <form>
+								  <div class="form-group">
+								    <label for="exampleInputEmail1">Введите имя</label>
+								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="имя">
+								  </div>
+								  <div class="form-group">
+								    <label for="exampleInputPassword1">Введите номер телефона</label>
+								    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
+								  </div>
+								</form>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
+						        <button type="button" class="btn btn-sm btn-primary">Отправить</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+						<!-- Modal -->
+					</div>
+					<div class="custom-file form-group">
+						<input type="file" class="custom-file-input"  id="file_input" required>
+						<label class="custom-file-label" for="validatedCustomFile">Выберите изображение...</label>
+						<div class="invalid-feedback">Example invalid custom file feedback</div>
+					  </div>
+					<!-- <a href="#" class="site-btn">SHOP NOW</a> --><!--input type="file" id="file_input"--->
+					<a href="" class="site-btn" data-toggle="modal" data-target="#exampleModal">Заказать</a>
+					<div id="accordion" class="accordion-area">
+						<div class="panel">
+							<div class="panel-header" id="headingOne">
+								<button class="panel-link active" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">information</button>
+							</div>
+							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="panel-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+									<p>Approx length 66cm/26" (Based on a UK size 8 sample)</p>
+									<p>Mixed fibres</p>
+									<p>The Model wears a UK size 8/ EU size 36/ US size 4 and her height is 5'8"</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-header" id="headingTwo">
+								<button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">care details </button>
+							</div>
+							<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="panel-body">
+									<img src="./img/cards.png" alt="">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+								</div>
+							</div>
+						</div>
+						<div class="panel">
+							<div class="panel-header" id="headingThree">
+								<button class="panel-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">shipping & Returns</button>
+							</div>
+							<div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+								<div class="panel-body">
+									<h4>7 Days Returns</h4>
+									<p>Cash on Delivery Available<br>Home Delivery <span>3 - 4 days</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="social-sharing">
+						<a href=""><i class="fa fa-google-plus"></i></a>
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- product section end -->
 @endsection
 @section('js')
 <script type="text/javascript">
+</script>
+<script>
+	TouchEmulator();
+  	Konva.hitOnDragEnabled = true;
+  	Konva.captureTouchEventsEnabled = true
+  	var stage = new Konva.Stage({
+    	container: 'img',
+    	width: 200,
+    	height: 300
+  	});
+  	var layer = new Konva.Layer();
+  	stage.add(layer);
+  	stage.draw();
+
+  	// listen for the file input change event and load the image.
+  	$("#file_input").change(function(e){
+      	var URL = window.webkitURL || window.URL;
+      	var url = URL.createObjectURL(e.target.files[0]);
+      	var img = new Image();
+      	img.src = url;
+      	img.onload = function() {
+        var img_width = img.width;
+        var img_height = img.height;
+        // calculate dimensions to get max 300px
+        var max = 300;
+        var ratio = (img_width > img_height ? (img_width / max) : (img_height / max))
+        // now load the Konva image
+        var theImg = new Konva.Image({
+          image: img,
+          x: 50,
+          y: 30,
+          width: img_width/ratio,
+          height: img_height/ratio,
+          draggable: true
+        });
+        layer.add(theImg);
+        layer.draw();
+      }
+  	});
+  	var scaleBy = 1.01;
+  	stage.on('wheel', (e) => {
+        e.evt.preventDefault();
+        var oldScale = stage.scaleX();
+        var pointer = stage.getPointerPosition();
+        var mousePointTo = {
+          x: (pointer.x - stage.x()) / oldScale,
+          y: (pointer.y - stage.y()) / oldScale,
+        };
+        var newScale =
+          e.evt.deltaY > 0 ? oldScale * scaleBy : oldScale / scaleBy;
+        stage.scale({ x: newScale, y: newScale });
+        var newPos = {
+          x: pointer.x - mousePointTo.x * newScale,
+          y: pointer.y - mousePointTo.y * newScale,
+        };
+        stage.position(newPos);
+        stage.batchDraw();
+  	});
+	$(document).on("click", "#large-img", function(e) {
+		var x = stage.scaleX()
+		var y = stage.scaleY()
+		var x_r = x+=0.1
+		var y_r = y+=0.1
+		stage.scaleX(x_r);
+		stage.scaleY(y_r);
+		stage.batchDraw();
+	})
+	$(document).on("click", "#reduce-img", function(e) {
+		var x = stage.scaleX()
+		var y = stage.scaleY()
+		var x_r = x-=0.1
+		var y_r = y-=0.1
+		stage.scaleX(x_r);
+		stage.scaleY(y_r);
+		stage.batchDraw();
+	})		
 </script>
 @endsection
