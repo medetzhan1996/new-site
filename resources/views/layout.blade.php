@@ -119,6 +119,8 @@
 	<script src="{{ asset('js/jquery.zoom.min.js') }}"></script>
 	<script src="{{ asset('js/jquery-ui.min.js') }}"></script>
 	<script src="{{ asset('js/main.js') }}"></script>
+	<script src="https://unpkg.com/konva@5.0.3/konva.min.js"></script>
+	<script src="https://cdn.rawgit.com/hammerjs/touchemulator/master/touch-emulator.js"></script>
 	@yield('js')
 	</body>
 </html>
