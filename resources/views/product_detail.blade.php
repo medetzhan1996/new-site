@@ -172,7 +172,7 @@
 								<div class="media">
 								  <div class="media-left">
 								    <a href="#" class="icon-slaider">
-								      <i class="fa fa-diamond" aria-hidden="true"></i>
+								     <i class="fa fa-shopping-bag" aria-hidden="true"></i>
 								    </a>
 								  </div>
 								  <div class="media-body">
@@ -184,9 +184,73 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-md-12">
+					<video  controls="controls">
+					   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+					   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				</div>
 			</div>
 		</div>
 	</section>
+	<!-- RELATED PRODUCTS section -->
+	<section class="related-product-section">
+		<div class="container">
+			<div class="section-title">
+				<h2>СОПУТСТВУЮЩИЕ ТОВАРЫ</h2>
+			</div>
+			<div class="product-slider owl-carousel">
+				<div class="product-item">
+					<div class="pi-pic">
+						<img src="{{ asset('img/soufeel/89263788_821389688338700_1465086407677730524_n.jpg') }}" alt="">
+						<div class="pi-links">
+							<a href="#" class="wishlist-btn"><i class="fa fa-heart-o"></i></a>
+						</div>
+					</div>
+					<div class="pi-text">
+						<span class="span-tg">13000 тг</span>						
+						<p>Глаза разбегаются при виде украшении</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="pi-pic">
+						<img src="{{ asset('img/soufeel/89263788_821389688338700_1465086407677730524_n.jpg') }}" alt="">
+						<div class="pi-links">
+							<a href="#" class="wishlist-btn"><i class="fa fa-heart-o"></i></a>
+						</div>
+					</div>
+					<div class="pi-text">
+						<span class="span-tg">11500 тг</span>
+						<p>В тренде именные кольца 💍</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="pi-pic">
+						<img src="{{ asset('img/soufeel/103366747_313872732949684_6576355006074717895_n.jpg') }}" alt="">
+						<div class="pi-links">
+							<a href="#" class="wishlist-btn"><i class="fa fa-heart-o"></i></a>
+						</div>
+					</div>
+					<div class="pi-text">
+						<span class="span-tg">7000 тг</span>						
+						<p>Стильные именные чехлы с серебряной вставкой😍🤯</p>
+					</div>
+				</div>
+				<div class="product-item">
+					<div class="pi-pic">
+						<img src="{{ asset('img/soufeel/101947733_285428975915917_1589860188144230744_n.jpg') }}" alt="">
+						<div class="pi-links">
+							<a href="#" class="wishlist-btn"><i class="fa fa-heart-o"></i></a>
+						</div>
+					</div>
+					<div class="pi-text">
+						<span class="span-tg">37000 тг</span>						
+						<p>Найти жизненного спутника - дело непростое🙅🏻‍♀️</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- RELATED PRODUCTS section end -->
 @endsection
 @section('js')
 	<script type="text/javascript">

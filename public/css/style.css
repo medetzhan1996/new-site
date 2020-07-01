@@ -2307,6 +2307,10 @@ ol {
 	width: 80%;
 	margin:0 auto;
 }
+video{
+	width: 100%;
+	height: 600px;
+}
 /* ----------------
   Responsive
 ---------------------*/
@@ -2514,6 +2518,10 @@ ol {
 	.background-btn{
 		display:block;
 	}
+	video{
+		width: 100%;
+		height: 300px;
+	}
 }
 
 /* Small Mobile :320px. */
@@ -2554,5 +2562,9 @@ ol {
 	}
 	.social-links a span {
 		display: none;
+	}
+	video{
+		width: 100%;
+		height: 280px;
 	}
 }
