@@ -12,10 +12,10 @@ class MainController extends Controller
     {
     	if($category_id):
     		$section_title = DB::table('category_products')->find($category_id)->title;
-    		$list_products_top = DB::table('list_products')->where('category_id', $category_id)->limit(12)->get();
+    		$list_products_top = DB::table('list_products')->where('category_id', $category_id)->orderBy('ordered')->limit(12)->get();
     	else:
     		$section_title = 'ТОП ПРОДАЖ';
-    		$list_products_top = DB::table('list_products')->where('top', 1)->get();
+    		$list_products_top = DB::table('list_products')->where('top', 1)->orderBy('ordered')->get();
     	endif;
     	$category_products = DB::table('category_products')->get();
     	
