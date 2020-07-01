@@ -176,8 +176,8 @@
 								    </a>
 								  </div>
 								  <div class="media-body">
-								    <h4 class="media-heading">неподдельный</h4>
-								    Драгоценные металлы
+								    <h4 class="media-heading">БЕСПЛАТНО KZ ПЕРЕВОЗКА</h4>
+								    ...
 								  </div>
 								</div>
 							</div>
