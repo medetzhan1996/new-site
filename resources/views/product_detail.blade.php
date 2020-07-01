@@ -6,7 +6,7 @@
 			@if($send_order)
 				<div class="alert alert-success alert-dismissible">
 				  	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-				  	<strong>Ваш заказ успешно отправлен!</strong> Ждите звонок менеджера.
+				  	<strong>Ваш заказ успешно отправлен!</strong>
 				</div>
 			@endif
 			<div class="row">
@@ -97,7 +97,6 @@
 										    <label for="exampleInputPassword1">Введите номер телефона</label>
 										    <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
 										  </div>
-										</form>
 								      </div>
 								      <div class="modal-footer">
 								        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
@@ -127,7 +126,6 @@
 							</div>
 							<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 								<div class="panel-body">
-									<img src="./img/cards.png" alt="">
 									<p>Цвет <output class="pull-right">Розовое Золото</output> </p>
 									<p>Материал <output class="pull-right">Серебряный</output> </p>
 									<p>Вес <output class="pull-right">2,36 Г</output> </p>
