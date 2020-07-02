@@ -64,7 +64,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-center">
-							<h2 class="border-b">{{$section_title}}</h2>
+							<h2 class="border-b">{{$section_title}} <img class="img-mar" src="https://ik.imagekit.io/soufeel/en/skin/frontend/smartwave/default/custom/static/home/home-nine/icon-02.png"> </h2> 
 						</div>
 					</div>
 					@foreach($list_products_top as $product)

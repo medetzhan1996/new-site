@@ -71,7 +71,7 @@
 					<div class="input-text-modal">
 					     <div class="form-group">
 						    <label for="exampleFormControlSelect1">Марка:</label>
-						    <select class="form-control form-contact" id="sort">
+						    <select class="form-control form-contact">
 						      <option>iPhone 11</option>
 						      <option>iPhone 6</option>
 						    </select>
@@ -107,7 +107,7 @@
 						</div>
 						<!-- Modal -->
 					</div>
-					<div class="custom-file form-group">
+					<div class="custom-file form-group" id="sort">
 						<input type="file" class="custom-file-input"  id="file_input" required>
 						<label class="custom-file-label" for="validatedCustomFile">Выберите изображение...</label>
 						<div class="invalid-feedback">Example invalid custom file feedback</div>
