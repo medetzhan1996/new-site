@@ -32,7 +32,7 @@
 							</div>
 						@endif
 						<div class="carousel-item">
-							<iframe width="100%" height="500" src="https://www.youtube.com/embed/-tJZ5Tvy_kM" frameborder="0" allowfullscreen></iframe>
+							<iframe width="100%" height="500" src="https://www.youtube.com/embed/3QjHdxuGzRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
