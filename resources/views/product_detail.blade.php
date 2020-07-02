@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
 						  <img src="{{ asset('img/soufeel/'.$product->src) }}" alt="...">
@@ -25,6 +25,12 @@
 							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100" alt="...">
 							</div>
 						@endif
+						<div class="carousel-item">
+						  	<video  controls="controls">
+							   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+							   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+							</video>
+						</div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -139,7 +145,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-12 spad">
+				<!-- <div class="col-md-12 spad">
 					<div class="frcontainer">
 						<div class="row">
 							<div class="col-md-4">
@@ -183,12 +189,13 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-12">
+				</div> -->
+				<!--div class="col-md-12">
 					<video  controls="controls">
 					   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
 					   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-				</div>
+					</video>
+				</div-->
 			</div>
 		</div>
 	</section>
