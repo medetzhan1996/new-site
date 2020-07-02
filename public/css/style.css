@@ -2424,10 +2424,7 @@ video{
 		height: 400px;
 		margin-top: 70px;
 	}
-	.set-bg{
-		background-position: top right;
-	}
-
+	
 }
 
 /* Large Mobile :480px. */
@@ -2529,10 +2526,6 @@ video{
 	.related-product-section{
 		padding-bottom: 10px;
 	}
-	.set-bg{
-		background-position: top right;
-	}
-
 }
 
 /* Medium Mobile :480px. */
@@ -2606,8 +2599,4 @@ video{
 	.media{
 		padding-bottom: 20px;
 	}
-	.set-bg{
-		background-position: top right;
-	}
-
 }

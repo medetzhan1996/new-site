@@ -3,7 +3,7 @@
 <!-- Hero section -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="{{ asset('img/soufeel/gold1.jpg') }}">
+			<div class="hs-item set-bg" data-setbg="{{ asset('img/soufeel/02_8.jpg') }}">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-7 text-white">
@@ -21,7 +21,7 @@
 					</div-->
 				</div>
 			</div>
-			<div class="hs-item set-bg" data-setbg="{{ asset('img/soufeel/gold2.jpg') }}">
+			<div class="hs-item set-bg" data-setbg="{{ asset('img/soufeel/04_8.jpg') }}">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-7 text-white">
