@@ -14,30 +14,25 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
-						  <img src="{{ asset('img/soufeel/'.$product->src) }}" alt="...">
+						  <img src="{{ asset('img/soufeel/'.$product->src) }}" class="d-block w-100" height="500" alt="...">
 						</div>
 						@if($product->src_extra1)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100" height="500" alt="...">
 							</div>
 						@endif
 						@if($product->src_extra2)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100" height="500" alt="...">
 							</div>
 						@endif
 						@if($product->src_extra3)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100" height="500" alt="...">
 							</div>
 						@endif
 						<div class="carousel-item">
-							<div class="video">
-							  	<video  controls="controls">
-								   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-								   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-								</video>
-							</div>
+							<iframe width="100%" height="500" src="https://www.youtube.com/embed/-tJZ5Tvy_kM" frameborder="0" allowfullscreen></iframe>
 						</div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
