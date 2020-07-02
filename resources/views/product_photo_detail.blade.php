@@ -3,6 +3,12 @@
 <!-- product section -->
 	<section class="product-section">
 		<div class="container">
+			@if($send_order)
+				<div class="alert alert-success alert-dismissible">
+				  	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  	<strong>Ваш заказ успешно отправлен!</strong>
+				</div>
+			@endif
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="background">	
@@ -29,42 +35,38 @@
 					</div>
 					<div class="input-text-modal">
 					     <div class="form-group">
-						    <label for="exampleFormControlSelect1">Версия:</label>
+						    <label for="exampleFormControlSelect1">Марка:</label>
 						    <select class="form-control form-contact">
-						      <option>1</option>
-						      <option>2</option>
-						      <option>3</option>
-						      <option>4</option>
-						      <option>5</option>
+						      <option>iPhone 11</option>
 						    </select>
 						  </div>
 					     <!-- Modal -->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						  <div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Заказать </h5>
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">×</span>
-						        </button>
-						      </div>
-						      <div class="modal-body">
-						        <form>
-								  <div class="form-group">
-								    <label for="exampleInputEmail1">Введите имя</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="имя">
-								  </div>
-								  <div class="form-group">
-								    <label for="exampleInputPassword1">Введите номер телефона</label>
-								    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
-								  </div>
-								</form>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
-						        <button type="button" class="btn btn-sm btn-primary">Отправить</button>
-						      </div>
-						    </div>
+						    <form method="GET" action="">
+							    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalLabel">Заказать </h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+										  <div class="form-group">
+										    <label for="exampleInputEmail1">Введите имя</label>
+										    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="имя">
+										  </div>
+										  <div class="form-group">
+										    <label for="exampleInputPassword1">Введите номер телефона</label>
+										    <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="номер телефон">
+										  </div>
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Закрыть</button>
+								        <input type="submit" name="send-order" class="btn btn-sm btn-primary" value="Отправить">
+								      </div>
+							    </div>
+						    </form>
 						  </div>
 						</div>
 						<!-- Modal -->
@@ -83,21 +85,19 @@
 							</div>
 							<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
-									<p>Approx length 66cm/26" (Based on a UK size 8 sample)</p>
-									<p>Mixed fibres</p>
-									<p>The Model wears a UK size 8/ EU size 36/ US size 4 and her height is 5'8"</p>
+									<p class="p-text">{!!$product->information!!}</p>
 								</div>
 							</div>
 						</div>
 						<div class="panel">
 							<div class="panel-header" id="headingTwo">
-								<button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">информация об уходе  </button>
+								<button class="panel-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">Подробности  </button>
 							</div>
 							<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 								<div class="panel-body">
-									<img src="./img/cards.png" alt="">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+									<p>Цвет <output class="pull-right">Черный</output> </p>
+									<p>Материал <output class="pull-right">Soft Shell Matte</output> </p>
+									<p>Вес <output class="pull-right">17,4 Г</output> </p>
 								</div>
 							</div>
 						</div>
@@ -107,9 +107,9 @@
 							</div>
 							<div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 								<div class="panel-body">
-									<h4>7 Days Returns</h4>
-									<p>Cash on Delivery Available<br>Home Delivery <span>3 - 4 days</span></p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra tempor so dales. Phasellus sagittis auctor gravida. Integer bibendum sodales arcu id te mpus. Ut consectetur lacus leo, non scelerisque nulla euismod nec.</p>
+									<p>Вы можете выбрать способ доставки при оформлении заказа</p>
+									<p>Доставка в среднем : <span>3 - 4 дня</span></p>
+									<p>Сертификат качества на 3 года.  За это время мы вам, совершенно БЕСПЛАТНО: почистим, отремантируем</p>
 								</div>
 							</div>
 						</div>

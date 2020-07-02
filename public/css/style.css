@@ -2270,32 +2270,25 @@ ol {
 
 .font-aiv2{
 	font-family: "AIV2";
-	color: #eac855;
-	text-align: left;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    font-size: 36px;
 }
 .font-anastasiaScriptC{
 	font-family: "AnastasiaScriptC";
-	color: #d4af8b;
-	text-align: left;
-    height: 50px;
-    line-height: 40px;
-    width: 100%;
-    font-size: 36px;
-}
-.font-SharonAP{
-	font-family: "SharonAP";
-	color: #EFC596;
-	text-align: left;
-    height: 50px;
-    line-height: 40px;
-    width: 100%;
-    font-size: 36px;
 }
 
+.font-SharonAP{
+	font-family: "SharonAP";
+}
+.font-style{
+	text-align: left;
+    height: 50px;
+    line-height: 40px;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 600;
+}
+.color-gold{
+	color: #ECBA77;
+}
 .frcontainer{
 	padding: 30px 0;
     border-top: 1px solid #eaecef;

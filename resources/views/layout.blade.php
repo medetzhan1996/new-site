@@ -44,7 +44,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<!-- logo -->
-						<a href="./index.html" class="site-logo">
+						<a href="{{route('main_index')}}" class="site-logo">
 							<img src="{{ asset('img/logo.png') }}" alt="">
 						</a>
 					</div>
