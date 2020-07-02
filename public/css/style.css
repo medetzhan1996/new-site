@@ -562,6 +562,7 @@ ol {
 	position: relative;
 	top: 50px;
 	opacity: 0;
+	color: black;
 }
 
 .hero-slider .hs-item h2 {
@@ -572,6 +573,7 @@ ol {
 	position: relative;
 	top: 50px;
 	opacity: 0;
+	color: black;
 }
 
 .hero-slider .hs-item p {
@@ -581,6 +583,7 @@ ol {
 	position: relative;
 	top: 100px;
 	opacity: 0;
+	color: black;
 }
 
 .hero-slider .hs-item .site-btn {
