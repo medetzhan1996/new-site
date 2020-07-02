@@ -2516,9 +2516,9 @@ video{
 	.background-btn{
 		display:block;
 	}
-	video{
+	.carusel-wh{
 		width: 100%;
-		height: 280px;
+		height: 370px;
 	}
 	.media{
 		padding-bottom: 20px;
