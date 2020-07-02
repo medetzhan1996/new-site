@@ -32,10 +32,12 @@
 							</div>
 						@endif
 						<div class="carousel-item">
-						  	<video  controls="controls">
-							   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-							   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-							</video>
+							<div class="video">
+							  	<video  controls="controls">
+								   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+								   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+								</video>
+							</div>
 						</div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

@@ -1,5 +1,47 @@
 @extends('layout')
 @section('content')
+<!-- Hero section -->
+	<section class="hero-section">
+		<div class="hero-slider owl-carousel">
+			<div class="hs-item set-bg" data-setbg="{{ asset('img/bg.jpg') }}">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-7 text-white">
+							<span>ИМЕННЫЕ КУЛОНЫ МЕЧТЫ</span>
+							<p>
+								Представьте, что вы имеете единственный на свете кулон, который готовили только для тебя...✨</br>
+								Вот это ДА! 🤭
+							</p>
+						</div>
+					</div>
+					<!--div class="offer-card text-white">
+						<span>от</span>
+						<h2>5000 тг</h2>
+						<p>Купить сейчас</p>
+					</div-->
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="{{ asset('img/bg-2.jpg') }}">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-6 col-lg-7 text-white">
+							<span>🎁Нәзік жандыларға ең қатты ұнайтын сыйлық қандай екенін білесіз бе?</span>
+							<p>Ең үздік шеберлердің қолынан шыққан алқамыз ешкімде жоқ, ерекше сыйлық болатынына сөз береміз👌🏻 </p>
+						</div>
+					</div>
+					<!--div class="offer-card text-white">
+						<span>from</span>
+						<h2>$29</h2>
+						<p>SHOP NOW</p>
+					</div-->
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="slide-num-holder" id="snh-1"></div>
+		</div>
+	</section>
+	<!-- Hero section end -->
 <!-- Category section -->
 <section class="category-section spad">
 	<div class="container">
