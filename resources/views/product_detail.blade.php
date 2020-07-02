@@ -14,25 +14,25 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
-						  <img src="{{ asset('img/soufeel/'.$product->src) }}" class="d-block w-100" height="500" alt="...">
+						  <img src="{{ asset('img/soufeel/'.$product->src) }}" class="d-block w-100 carusel-wh"  alt="...">
 						</div>
 						@if($product->src_extra1)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100" height="500" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100 carusel-wh"  alt="...">
 							</div>
 						@endif
 						@if($product->src_extra2)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100" height="500" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100 carusel-wh"  alt="...">
 							</div>
 						@endif
 						@if($product->src_extra3)
 							<div class="carousel-item">
-							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100" height="500" alt="...">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100 carusel-wh"  alt="...">
 							</div>
 						@endif
 						<div class="carousel-item">
-							<iframe width="100%" height="500" src="https://www.youtube.com/embed/3QjHdxuGzRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe class="carusel-wh"  src="https://www.youtube.com/embed/3QjHdxuGzRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
