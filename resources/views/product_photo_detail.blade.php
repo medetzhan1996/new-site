@@ -11,10 +11,45 @@
 			@endif
 			<div class="row">
 				<div class="col-lg-6">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false">
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="{{ asset('img/soufeel/'.$product->src) }}" class="d-block w-100 carusel-wh"  alt="...">
+						</div>
+						@if($product->src_extra1)
+							<div class="carousel-item">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra1) }}" class="d-block w-100 carusel-wh"  alt="...">
+							</div>
+						@endif
+						@if($product->src_extra2)
+							<div class="carousel-item">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra2) }}" class="d-block w-100 carusel-wh"  alt="...">
+							</div>
+						@endif
+						@if($product->src_extra3)
+							<div class="carousel-item">
+							  <img src="{{ asset('img/soufeel/'.$product->src_extra3) }}" class="d-block w-100 carusel-wh"  alt="...">
+							</div>
+						@endif
+						<div class="carousel-item">
+							<iframe class="carusel-wh" src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<!-- <div class="col-lg-6">
 					<div class="background">	
 						<div id="img-content">
 							<div id="img">
-
+				
 							</div>
 						</div>
 						<div class="background-btn">
@@ -22,7 +57,7 @@
 							<span id="reduce-img" class="btn btn-sm btn-info">-</span>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-lg-6 product-details">
 					<h2 class="p-title" style="font-weight: 400;">Защитный Чехол Для Телефона</h2>
 					<h3 class="p-price">10000 тг</h3>

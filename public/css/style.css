@@ -2520,6 +2520,9 @@ video{
 		width: 100%;
 		height: 370px;
 	}
+	.product-section {
+	    padding-top: 14px;
+	}
 	.media{
 		padding-bottom: 20px;
 	}
