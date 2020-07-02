@@ -10,7 +10,7 @@
 				</div>
 			@endif
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 demo1">
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false">
 					  <div class="carousel-inner">
 						<div class="carousel-item active">
@@ -45,7 +45,7 @@
 					  </a>
 					</div>
 				</div>
-				<!-- <div class="col-lg-6">
+				<div class="col-lg-6 demo2 hidden">
 					<div class="background">	
 						<div id="img-content">
 							<div id="img">
@@ -57,7 +57,7 @@
 							<span id="reduce-img" class="btn btn-sm btn-info">-</span>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<div class="col-lg-6 product-details">
 					<h2 class="p-title" style="font-weight: 400;">Защитный Чехол Для Телефона</h2>
 					<h3 class="p-price">10000 тг</h3>
@@ -71,8 +71,9 @@
 					<div class="input-text-modal">
 					     <div class="form-group">
 						    <label for="exampleFormControlSelect1">Марка:</label>
-						    <select class="form-control form-contact">
+						    <select class="form-control form-contact" id="sort">
 						      <option>iPhone 11</option>
+						      <option>iPhone 6</option>
 						    </select>
 						  </div>
 					     <!-- Modal -->
@@ -159,6 +160,12 @@
 <script type="text/javascript">
 </script>
 <script>
+	$("#sort").change(function(){
+		$(".demo1").addClass('hidden');
+		$(".demo2").removeClass('hidden');
+
+	});
+
 	TouchEmulator();
   	Konva.hitOnDragEnabled = true;
   	Konva.captureTouchEventsEnabled = true
