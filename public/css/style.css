@@ -1779,8 +1779,15 @@ ol {
 }
 
 .related-product-section .section-title h2 {
-	font-size: 24px;
-	margin-bottom: 60px;
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    width: 20%;
+    margin: 0px auto 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #414141;
+    text-transform: uppercase;
 }
 
 /* ----------------
