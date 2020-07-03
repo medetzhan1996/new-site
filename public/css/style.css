@@ -2436,6 +2436,9 @@ ol {
 		height: 400px;
 		margin-top: 70px;
 	}
+	.related-product-section .section-title h2{
+		width: 30%;
+	}
 }
 
 /* Large Mobile :480px. */
@@ -2539,6 +2542,9 @@ ol {
 	}
 	.related-product-section{
 		padding-bottom: 10px;
+	}
+	.related-product-section .section-title h2{
+		width: 35%;
 	}
 }
 
