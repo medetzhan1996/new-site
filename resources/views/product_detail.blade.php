@@ -196,12 +196,6 @@
 						</div>
 					</div>
 				</div> -->
-				<!--div class="col-md-12">
-					<video  controls="controls">
-					   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-					   <source src="https://www.soufeel.com/skin/frontend/smartwave/default/custom/static/product/view/public/34/01.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-					</video>
-				</div-->
 			</div>
 		</div>
 	</section>
@@ -209,7 +203,7 @@
 	<section class="related-product-section">
 		<div class="container">
 			<div class="section-title">
-				<h2>ПОХОЖИЕ ТОВАРЫ</h2>
+				<h2 class="border-b">ПОХОЖИЕ ТОВАРЫ</h2>
 			</div>
 			<div class="product-slider owl-carousel">
 				<div class="product-item">
